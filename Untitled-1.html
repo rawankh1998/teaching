@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>הרשמה למרכז למידה</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>הרשמה למרכז למידה</h1>
+        <form id="registration-form">
+            <label for="name">שם מלא:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">אימייל:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">טלפון:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="course">קורס מתעניין:</label>
+            <select id="course" name="course">
+                <option value="math">מתמטיקה</option>
+                <option value="science">מדעים</option>
+                <option value="literature">ספרות</option>
+                <option value="languages">שפות</option>
+            </select>
+
+            <button type="submit">הרשם</button>
+        </form>
+    </div>
+</body>
+
+</html>
